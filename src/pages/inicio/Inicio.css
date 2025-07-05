@@ -1,0 +1,50 @@
+.inicio-conteiner {
+display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background-image: url('/src/assets/fondo.jpg');
+   background-size: cover;          /* Escala la imagen para cubrir toda la pantalla */
+   background-position: center;     /* Centra la imagen */
+   background-repeat: no-repeat;    /* Evita que se repita en mosaico */
+   font-family: 'Arial', sans-serif;
+  
+}
+
+.inicio-card {
+  background-color: white;
+  padding: 80px 100px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* sombra*/
+  max-width: 400px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+
+
+.btn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #ffe066;
+  color: #000;
+}
+
+.btn-secondary {
+  background-color: #ffe066;
+  color: #000;
+}

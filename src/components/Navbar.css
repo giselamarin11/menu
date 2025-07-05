@@ -1,0 +1,41 @@
+/* Contenedor general del navbar */
+nav {
+  background-color: rgb(200, 201, 201);
+  padding: 10px;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Logo a la izquierda, enlaces a la derecha */
+  align-items: center;
+}
+
+
+.logo img {
+  height: 50px;
+  width: auto;
+  max-width: 70px;
+}
+
+/* Lista de enlaces */
+.nav-links {
+  list-style: none;        /* Elimina las viñetas */
+  display: flex;           /* Alinea horizontalmente */
+  gap: 20px;               /* Espacio entre enlaces */
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* Estilo básico para los enlaces */
+.nav-links li a {
+  text-decoration: none;
+  color: #171717;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+

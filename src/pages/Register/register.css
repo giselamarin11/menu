@@ -1,0 +1,101 @@
+/* Fondo de la pantalla */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('/src/assets/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Contenedor principal */
+.resgister-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(3px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Tarjeta de registro */
+.register-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 2rem;
+}
+
+/* Parte izquierda del formulario */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+/* Título */
+.register-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+/* Inputs */
+.register-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Botón */
+.register-button {
+  background-color: #f7d325;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #eac418;
+}
+
+.register-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.register-logo img {
+  width: 300px;
+  margin-top: 1rem;
+}
+
+
+/* Columna izquierda (texto y logo) */
+.register-left {
+  flex: 1;
+  text-align: center;
+}
+
+
