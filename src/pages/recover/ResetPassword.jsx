@@ -13,6 +13,7 @@ function ResetPassword() {
         navigate('/login');
 
     };
+    //retornar a nueva contraseña
 
 return (
 <div className='reset-container'>
