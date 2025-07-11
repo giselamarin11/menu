@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer(){
 return (
-  <footer className='footer'>
+  <footer className='footer'> 
 <footer>
   <p>&copy; 2025 Inmosoft.</p>
   <p>Encuentra tu hogar ideal con nosotros. Compra, venta y alquiler de inmuebles en toda la región.</p>

@@ -2,9 +2,9 @@ import React from 'react';
 import './Inicio.css';
 import { Link } from 'react-router-dom';
 
-function Inicio() {
+function Inicio() {  // componente funcional que se encarga de mostrar la interfaz principal de bienvenida.
     return (
-        <div className='inicio-conteiner'>
+        <div className='inicio-conteiner'>     
             <div className='inicio-card'>
                 
                 <img src='/src/assets/logo.png' alt='logo inmosoft' className='logo' />
@@ -30,3 +30,6 @@ function Inicio() {
 }
 
 export default Inicio;
+
+// Este componente muestra la página principal o de inicio. Desde aquí, los usuarios pueden registrarse o ingresar si ya tienen una cuenta. 
+// Todo está organizado con clases de CSS, y los botones navegan a través de react-router-dom sin recargar la página.”

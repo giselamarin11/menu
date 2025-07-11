@@ -5,12 +5,12 @@ function Register() {
     return (
         <div className='resgister-container'>
             <div className='register-card'>
-                {/* Columna izquierda con logo */}
+                
                 <div className='register-logo'>
                     <img src='/src/assets/logo.png' alt='Logo Inmosoft' />
                 </div>
 
-                {/* Columna derecha con formulario */}
+                
                 <form className='register-form'>
                     <p className='register-title'>Crea Tu Cuenta Y Encuentra Tu Hogar Ideal</p>
                     <input type="text" placeholder="Nombre" required />
